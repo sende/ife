@@ -1,0 +1,62 @@
+
+body,h1,h2,h3,h4,h5,h6,p,span{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+body{
+	min-width: 600px;
+}
+
+.content{
+	margin: 20px;
+	padding: 20px;
+	background-color: #eee;
+	overflow: auto;
+}
+
+.logo{
+	margin: 0;
+	padding: 20px;
+	width: 200px;
+	background-color: #fff;
+	float: left;
+}
+
+.logo img{
+	width: 80px;
+	height: 80px;
+}
+
+.logo h2 {
+	float: right;
+	width: 100px;
+}
+
+.comment{
+	background-color: #fff;
+	padding: 20px;
+	margin-left: 260px;
+	margin-right: 140px;
+}
+
+.member-list{
+	width: 120px;
+  	float: right;
+  	background: #fff;
+  	border: 1px solid #999;
+}
+
+.member{
+	margin: 0;
+	padding: 20px;
+}
+.member img{
+	width: 80px;
+	height: 80px;
+}
+
+.c{
+	clear: both;
+}
