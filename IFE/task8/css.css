@@ -1,0 +1,55 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	text-align: center;
+	width: 100%;
+}
+
+.logo{
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	background-color: #fff;
+	top: 10px;
+	left: 50px;
+}
+.logo::after{
+	content: '';
+    position: absolute;
+    right: -3px;
+    top: 18px;
+    height: 14px;
+    width: 14px;
+    background: #fff;
+    display: block;
+    border: 3px solid #2189bf;
+}
+
+.top{
+	width: 100%;
+	height: 57px;
+	background-color: #2189bf;
+}
+
+.content{
+	position: absolute;
+	top: 57px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+.left-meun{
+	width: 260px;
+	height: 100%;
+	background-color: #2a2e3d;
+}
+
+.right-main{
+	overflow: auto;
+}
