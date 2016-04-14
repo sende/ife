@@ -16,7 +16,7 @@ body{
 
 .top{
 	width: 100%;
-	height: 60px;
+	height: 56px;
 }
 
 .logo{
@@ -33,7 +33,7 @@ body{
 }
 
 .logo h3{
-	line-height: 60px;
+	line-height: 56px;
 	width: 80px;
 	float: left;
 }
@@ -52,7 +52,7 @@ body{
 
 .top-r-li{
 	float: left;
-	line-height: 60px;
+	line-height: 56px;
 	margin-right: 15px;
 	width: 80px;
 	text-align: center;
@@ -69,9 +69,9 @@ body{
 	float:right;
 	background: url(../img/icon-2.jpg)  no-repeat left;
 	text-align: right;
-	height: 60px;
-    width: 60px;
-    line-height: 60px;
+	height: 56px;
+    width: 56px;
+    line-height: 56px;
     font-weight: bold;
     color:#E74F4D ;
 }
@@ -119,7 +119,7 @@ body{
 
 .content2{
 	width: 100%;
-	height: 260px;
+	height: 250px;
 }
 .content2 ul{
 	width: 100%;
@@ -168,11 +168,53 @@ body{
 
 .content4{
 	width: 100%;
-	height: 360px;
+	height: 300px;
 	background: url(../img/pic02.jpg) no-repeat;
 	background-size: 100% auto;
+	padding-top: 60px;
 }
 
+
+.content4 p{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+.content4 span{
+	width: 30px;
+	height: 3px;
+	display: block;
+	background-color: #fff;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.content4 .lp{
+	font-size: 15px;
+	margin-top: 25px;
+}
+.select{
+	text-align: center;
+	padding-top: 25px;
+}
+
+
+.content4 select{
+	width: 80px;
+	height: 20px;
+}
+
+.content4 select:focus{
+	
+}
+
+.content4 select:hover{
+	color: aquamarine;
+}
+
+.content4 select option:hover{
+	height: ;
+}
 .content5{
 	width: 80%;
 	height:365px;
@@ -243,14 +285,12 @@ body{
 }
 
 .content7 span{
-	position: relative;
 	width: 30px;
 	height: 3px;
 	display: block;
 	background-color: #fff;
+	margin: auto;
 	margin-top: 25px;
-	left: 50%;
-	margin-left: -15px;
 }
 
 .content7 a{
@@ -262,9 +302,7 @@ body{
 	text-decoration: none;
 	color: #fff;
 	line-height: 43px;
-	position: relative;
-	left: 50%;
-	margin-left: -85px;
+	margin: auto;
 	margin-top: 25px;
 }
 
@@ -307,13 +345,24 @@ body{
 	width: 33%;
 	height: 100%;
 	margin-left: 33%;
+	margin-top: 0 ;
 	margin-right: 34%;
+	text-align: center;
 }
 
 .content7-center p{
 	color: #000;
 	font-size: 20px;
 	text-align:center;
+	padding-top: 172px;
+}
+
+.content7-center a{
+	border: 2px solid #e74f4d;
+	color: #e74f4d;
+}
+.content7-center span{
+	background-color: #e74f4d;
 }
 
 .content8{
